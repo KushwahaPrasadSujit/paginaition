@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sujitprasadkushwaha.paginaitionAnimation"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "eb24265d-0858-4ca7-b3c2-8e5b7946dcf1"
+      }
+    },
+    "owner": "sujitprasadkushwaha",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/eb24265d-0858-4ca7-b3c2-8e5b7946dcf1"
     }
   }
 }
